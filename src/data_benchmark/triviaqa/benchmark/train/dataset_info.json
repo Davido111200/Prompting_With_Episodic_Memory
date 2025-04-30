@@ -1,0 +1,156 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 10329,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/triviaqa/benchmark/train.json": {
+      "num_bytes": 16321,
+      "checksum": null
+    }
+  },
+  "download_size": 16321,
+  "features": {
+    "search_results": {
+      "description": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "filename": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "rank": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "search_context": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "title": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "url": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "question_source": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question_id": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "entity_pages": {
+      "doc_source": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "filename": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "title": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "wiki_context": {
+        "feature": {
+          "dtype": "null",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "answer": {
+      "aliases": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "matched_wiki_entity_name": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "normalized_aliases": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "normalized_matched_wiki_entity_name": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "normalized_value": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "type": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "value": {
+        "dtype": "string",
+        "_type": "Value"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 26650,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 10329,
+      "num_examples": 16,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

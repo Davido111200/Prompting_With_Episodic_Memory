@@ -1,0 +1,70 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 67007,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/truthfulqa_mc1/benchmark/dev.json": {
+      "num_bytes": 68639,
+      "checksum": null
+    }
+  },
+  "download_size": 68639,
+  "features": {
+    "mc2_targets": {
+      "choices": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "labels": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "mc1_targets": {
+      "choices": {
+        "feature": {
+          "dtype": "string",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "labels": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      }
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 135646,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 67007,
+      "num_examples": 80,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

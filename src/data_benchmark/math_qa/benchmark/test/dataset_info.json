@@ -1,0 +1,62 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1850092,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/math_qa/benchmark/test.json": {
+      "num_bytes": 2364610,
+      "checksum": null
+    }
+  },
+  "download_size": 2364610,
+  "features": {
+    "Problem": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "linear_formula": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "annotated_formula": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "correct": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "category": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "Rationale": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4214702,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1850092,
+      "num_examples": 2985,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

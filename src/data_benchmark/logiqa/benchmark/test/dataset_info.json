@@ -1,0 +1,53 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 571705,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/logiqa/benchmark/test.json": {
+      "num_bytes": 601263,
+      "checksum": null
+    }
+  },
+  "download_size": 601263,
+  "features": {
+    "context": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "options": {
+      "feature": {
+        "dtype": "string",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "question": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "label": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 1172968,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 571705,
+      "num_examples": 651,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

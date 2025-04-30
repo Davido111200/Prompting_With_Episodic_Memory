@@ -1,0 +1,17 @@
+premise	hypothesis	label
+A male, female, and young girl are on a couch.	Three people are sitting on a piece of furniture.	0
+Two go-carts with riders, one wearing a white and the other a black helmet.	The two cart riders have different colored helmets.	0
+A busy street of people and two men are wearing no shirts.	Two men with no shirts are on a busy street full of people	0
+A speed boat jumps over waves in the water.	There is a boat on the water.	0
+A young boy shows off his small action figures.	A young boy shows off his action figures.	0
+Older woman holding a young boy.	Elderly woman is holding someone.	0
+two football players tackle another football player.	Big humans tackling	1
+One woman painting the other one's face for a carnival.	A woman is getting a unicorn painted on her face	1
+Children play in a pile of snow.	The children are dressed in winter clothes.	1
+A street actor and a woman are standing beneath a column together to take a picture, next to a square on a sunny day.	A woman is taking a photo with a man in costume on the streets to send as a postcard to her family.	1
+A woman is carrying a plastic bag past a red car.	A woman just left the grocery store	1
+a girl in yellow dress is standing with her eyes closed in a busy park.	The girl is swinging in the park.	2
+Man getting blood pressure checked in his home.	The man is giving blood.	2
+a black and brown dog staring off into the distance at something	The dog was being fed in the kitchen	2
+A guy with glasses taking a photo of a bag with a motorcycle on it.	the guy is rollerblading on the beach	2
+A photographer and a woman wait to take a picture outside.	a photographer taking pictures in a studio	2

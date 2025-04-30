@@ -1,0 +1,50 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 3505,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/piqa/benchmark/train.json": {
+      "num_bytes": 3985,
+      "checksum": null
+    }
+  },
+  "download_size": 3985,
+  "features": {
+    "label": {
+      "dtype": "int64",
+      "_type": "Value"
+    },
+    "sol2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sol1": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "goal": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 7490,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 3505,
+      "num_examples": 16,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

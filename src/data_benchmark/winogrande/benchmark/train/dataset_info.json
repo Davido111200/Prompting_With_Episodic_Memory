@@ -1,0 +1,50 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1960,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/winogrande/benchmark/train.json": {
+      "num_bytes": 2696,
+      "checksum": null
+    }
+  },
+  "download_size": 2696,
+  "features": {
+    "answer": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "option2": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "sentence": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "option1": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 4656,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1960,
+      "num_examples": 16,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}

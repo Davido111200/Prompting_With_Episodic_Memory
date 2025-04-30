@@ -1,0 +1,12 @@
+torch=2.0.1
+matplotlib
+datasets
+nltk
+supar
+fairscale
+fire
+sentencepiece
+attrs
+accelerate
+jmespath
+idna

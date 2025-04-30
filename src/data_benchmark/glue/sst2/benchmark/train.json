@@ -1,0 +1,130 @@
+[
+    {
+        "sentence": ", ararat is fiercely intelligent and uncommonly ambitious .",
+        "label": "great"
+    },
+    {
+        "sentence": "decent but dull .",
+        "label": "terrible"
+    },
+    {
+        "sentence": "an opportunity missed .",
+        "label": "terrible"
+    },
+    {
+        "sentence": "to revitalize what is and always has been remarkable about clung-to traditions",
+        "label": "great"
+    },
+    {
+        "sentence": "a bold ( and lovely ) experiment",
+        "label": "great"
+    },
+    {
+        "sentence": "a diverting enough hour-and-a-half for the family audience",
+        "label": "great"
+    },
+    {
+        "sentence": "happily",
+        "label": "great"
+    },
+    {
+        "sentence": "been saved if the director , tom dey , had spliced together bits and pieces of midnight run and 48 hours ( and , for that matter , shrek )",
+        "label": "terrible"
+    },
+    {
+        "sentence": "said the film was better than saving private ryan",
+        "label": "great"
+    },
+    {
+        "sentence": "rubbish",
+        "label": "terrible"
+    },
+    {
+        "sentence": "the most watchable film",
+        "label": "great"
+    },
+    {
+        "sentence": "the major problem with windtalkers is that the bulk of the movie centers on the wrong character .",
+        "label": "terrible"
+    },
+    {
+        "sentence": "is a dazzling conceptual feat",
+        "label": "great"
+    },
+    {
+        "sentence": "combine into one terrific story with lots of laughs .",
+        "label": "great"
+    },
+    {
+        "sentence": "a work of extraordinary journalism",
+        "label": "great"
+    },
+    {
+        "sentence": "holds the film together with a supremely kittenish performance that gradually accumulates more layers",
+        "label": "great"
+    },
+    {
+        "sentence": "in a movie this bad",
+        "label": "terrible"
+    },
+    {
+        "sentence": "of typical late-twenty-somethings natter on about nothing",
+        "label": "terrible"
+    },
+    {
+        "sentence": "not a classic ,",
+        "label": "terrible"
+    },
+    {
+        "sentence": "while the importance of being earnest offers opportunities for occasional smiles and chuckles , it does n't give us a reason to be in the theater beyond wilde 's wit and the actors ' performances .",
+        "label": "terrible"
+    },
+    {
+        "sentence": "that 's what i liked about it",
+        "label": "great"
+    },
+    {
+        "sentence": "of war",
+        "label": "terrible"
+    },
+    {
+        "sentence": "collapses like an overcooked souffl\u00e9",
+        "label": "terrible"
+    },
+    {
+        "sentence": ", mibii is rote work and predictable , but with a philosophical visual coming right at the end that extravagantly redeems it .",
+        "label": "great"
+    },
+    {
+        "sentence": "so much phone in his performance as",
+        "label": "terrible"
+    },
+    {
+        "sentence": "comic slugfest",
+        "label": "great"
+    },
+    {
+        "sentence": ", but one whose lessons are well worth revisiting as many times as possible",
+        "label": "great"
+    },
+    {
+        "sentence": "having had all its vital essence scooped out and discarded",
+        "label": "terrible"
+    },
+    {
+        "sentence": "unassuming , subordinate",
+        "label": "terrible"
+    },
+    {
+        "sentence": "loved the people onscreen ,",
+        "label": "great"
+    },
+    {
+        "sentence": "the tiresome rant",
+        "label": "terrible"
+    },
+    {
+        "sentence": "a domestic melodrama with weak dialogue and biopic",
+        "label": "terrible"
+    }
+]

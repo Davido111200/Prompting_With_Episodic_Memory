@@ -1,0 +1,182 @@
+[
+    {
+        "Problem": ". 003 / ? = . 01",
+        "Rationale": "\"\"\"let . 003 / x = . 01 ; then x = . 003 / . 01 = . 3 / 1 = . 3 answer is a\"\"\"",
+        "options": "a ) . 3 , b ) . 09 , c ) . 009 , d ) . 0009 , e ) none of them",
+        "annotated_formula": "divide(divide(003, const_1000), divide(01, const_100))",
+        "linear_formula": "divide(n0,const_1000)|divide(n1,const_100)|divide(#0,#1)|",
+        "category": "general",
+        "correct": "a"
+    },
+    {
+        "Problem": "if \u221a 10 = 3.16 , find the value of if \u221a 5 / 2",
+        "Rationale": "explanation : \u221a ( 5 / 2 ) = \u221a ( 5 \u00d7 2 / 2 \u00d7 2 ) = \u221a ( 10 ) / 2 = 3.16 / 2 = 1.58 answer : b",
+        "options": "a ) 1.3 , b ) 1.58 , c ) 2.03 , d ) 2.15 , e ) 3.15",
+        "annotated_formula": "sqrt(divide(5, 2))",
+        "linear_formula": "divide(n2,n3)|sqrt(#0)",
+        "category": "general",
+        "correct": "b"
+    },
+    {
+        "Problem": "30 men can do a work in 40 days . when should 12 men leave the work so that the entire work is completed in 40 days after they leave the work ?",
+        "Rationale": "\"\"\"total work to be done = 30 * 40 = 1200 let 12 men leave the work after ' p ' days , so that the remaining work is completed in 40 days after they leave the work . 40 p + ( 12 * 40 ) = 1200 40 p = 720 = > p = 18 days answer : a\"\"\"",
+        "options": "a ) 18 days , b ) 10 days , c ) 55 days , d ) 44 days , e ) 22 days",
+        "annotated_formula": "divide(subtract(multiply(30, 40), multiply(40, 12)), 40)",
+        "linear_formula": "multiply(n0,n1)|multiply(n1,n2)|subtract(#0,#1)|divide(#2,n1)|",
+        "category": "physics",
+        "correct": "a"
+    },
+    {
+        "Problem": "carrie likes to buy t - shirts at the local clothing store . they cost $ 9.65 each . one day , she bought 12 t - shirts . how much money did she spend ?",
+        "Rationale": "$ 9.65 * 12 = $ 115.8 . answer is a .",
+        "options": "a ) $ 115.8 , b ) $ 248.75 , c ) $ 200 , d ) $ 171.6 , e ) $ 190",
+        "annotated_formula": "floor(multiply(12, 9.65))",
+        "linear_formula": "multiply(n0,n1)|floor(#0)|",
+        "category": "general",
+        "correct": "a"
+    },
+    {
+        "Problem": "two trains 110 meters and 200 meters in length respectively are running in opposite directions , one at the rate of 80 km and the other at the rate of 65 kmph . in what time will they be completely clear of each other from the moment they meet ?",
+        "Rationale": "\"\"\"t = ( 110 + 200 ) / ( 80 + 65 ) * 18 / 5 t = 7.69 answer : b\"\"\"",
+        "options": "a ) 4.85 , b ) 7.69 , c ) 6.85 , d ) 5.85 , e ) 6.15",
+        "annotated_formula": "divide(add(110, 200), multiply(add(80, 65), const_0_2778))",
+        "linear_formula": "add(n0,n1)|add(n2,n3)|multiply(#1,const_0_2778)|divide(#0,#2)|",
+        "category": "physics",
+        "correct": "b"
+    },
+    {
+        "Problem": "how many 1 / 10 s are there in 37 1 / 2 ?",
+        "Rationale": "\"\"\"required number = ( 75 / 2 ) / ( 1 / 10 ) = ( 75 / 2 x 10 / 1 ) = 375 . answer : a\"\"\"",
+        "options": "a ) 375 , b ) 475 , c ) 500 , d ) 670 , e ) 700",
+        "annotated_formula": "divide(add(37, divide(1, 2)), divide(1, 10))",
+        "linear_formula": "divide(n0,n4)|divide(n0,n1)|add(n2,#0)|divide(#2,#1)|",
+        "category": "general",
+        "correct": "a"
+    },
+    {
+        "Problem": "how much interest will $ 10,000 earn in 3 months at an annual rate of 6 % ?",
+        "Rationale": "\"\"\"soln : - 6 months = 1 / 4 of year ; 6 % = 6 / 100 = 3 / 50 ; $ 10,000 ( principal ) * 3 / 50 ( interest rate ) * 1 / 4 ( time ) = $ 150 . answer : b\"\"\"",
+        "options": "a ) $ 250 , b ) $ 150 , c ) $ 450 , d ) $ 550 , e ) $ 650",
+        "annotated_formula": "multiply(multiply(power(const_100, const_2), divide(6, const_100)), divide(const_3, const_4))",
+        "linear_formula": "divide(const_3,n2)|divide(const_4.0,const_100)|power(const_100,const_2)|multiply(#1,#2)|multiply(#0,#3)|",
+        "category": "gain",
+        "correct": "b"
+    },
+    {
+        "Problem": "in filling a room with gas 100 m * 10 m * 10 m the volumes of gas will be ?",
+        "Rationale": "100 * 10 * 10 = 10000 answer : c",
+        "options": "['a ) 100 cu . m', 'b ) 1000 cu . m', 'c ) 10000 cu . m', 'd ) 100000 cu . m', 'e ) 10000000 cu . m']",
+        "annotated_formula": "volume_rectangular_prism(100, 10, 10)",
+        "linear_formula": "volume_rectangular_prism(n0,n1,n1)",
+        "category": "physics",
+        "correct": "c"
+    },
+    {
+        "Problem": "a right triangle is inscribed in a circle . the legs of the triangle have lengths 6 and 8 . what is the diameter of the circle ?",
+        "Rationale": "property of a right triangle inscribed in a circle is that when an angle is made from diameter of the circle , it is a right triangle . or if a right triangle is made inscribed in a circle , its its longest side is the diameter of the circle . hence diameter = ( 6 ^ 2 + 8 ^ 2 ) ^ 1 / 2 = 10 d is the answer",
+        "options": "['a ) 8', 'b ) 8 \u03c0', 'c ) 9 \u221a 3', 'd ) 10', 'e ) 12']",
+        "annotated_formula": "sqrt(add(power(6, const_2), power(8, const_2)))",
+        "linear_formula": "power(n0,const_2)|power(n1,const_2)|add(#0,#1)|sqrt(#2)",
+        "category": "geometry",
+        "correct": "d"
+    },
+    {
+        "Problem": "what is 15 percent of 64 ?",
+        "Rationale": "\"\"\"( 15 / 100 ) * 64 = 9.6 the answer is c .\"\"\"",
+        "options": "a ) 7.2 , b ) 8.4 , c ) 9.6 , d ) 10.4 , e ) 11.8",
+        "annotated_formula": "divide(multiply(15, add(add(multiply(multiply(add(const_3, const_2), const_2), multiply(multiply(const_3, const_4), const_100)), multiply(multiply(add(const_3, const_4), add(const_3, const_2)), multiply(add(const_3, const_2), const_2))), add(const_3, const_3))), const_100)",
+        "linear_formula": "add(const_2,const_3)|add(const_3,const_4)|add(const_3,const_3)|multiply(const_3,const_4)|multiply(#0,const_2)|multiply(#3,const_100)|multiply(#1,#0)|multiply(#4,#5)|multiply(#6,#4)|add(#7,#8)|add(#9,#2)|multiply(n0,#10)|divide(#11,const_100)|",
+        "category": "gain",
+        "correct": "c"
+    },
+    {
+        "Problem": "for any positive integer n , the sum of the first n positive integers equals n ( n + 1 ) / 2 . what is the sum of all the even integers between 99 and 181 ?",
+        "Rationale": "\"\"\"100 + 102 + . . . + 180 = 100 * 41 + ( 2 + 4 + . . . + 80 ) = 100 * 41 + 2 * ( 1 + 2 + . . . + 40 ) = 100 * 41 + 2 ( 40 ) ( 41 ) / 2 = 100 * 41 + 40 * 41 = 140 ( 41 ) = 5740 the answer is b .\"\"\"",
+        "options": "a ) 3820 , b ) 5740 , c ) 6580 , d ) 7360 , e ) 9200",
+        "annotated_formula": "add(divide(subtract(subtract(181, 1), add(99, 1)), 2), 1)",
+        "linear_formula": "add(n2,n0)|subtract(n3,n0)|subtract(#1,#0)|divide(#2,n1)|add(n0,#3)|",
+        "category": "general",
+        "correct": "b"
+    },
+    {
+        "Problem": "if k is an integer and 0.0010101 x 10 ^ k is greater than 10 , what is the least possible value of k ?",
+        "Rationale": "\"\"\"0.0010101 * 10 ^ k > 10 we need to move the decimal point to the right 4 places to get 10.101 this is equivalent to multiplying by 10 ^ 4 . the answer is c .\"\"\"",
+        "options": "a ) 2 , b ) 3 , c ) 4 , d ) 5 , e ) 6",
+        "annotated_formula": "divide(log(divide(10, 0.0010101)), log(10))",
+        "linear_formula": "divide(n2,n0)|log(n1)|log(#0)|divide(#2,#1)|",
+        "category": "general",
+        "correct": "c"
+    },
+    {
+        "Problem": "if a and b are positive integers and ( 3 ^ a ) ^ b = 3 ^ 3 , what is the value of 3 ^ a * 3 ^ b ?",
+        "Rationale": "3 ^ ab = 3 ^ 3 therefore ab = 3 either a = 1 or 3 or b = 3 or 1 therefore 3 ^ a * 3 ^ b = 3 ^ ( a + b ) = 3 ^ 4 = 81 c",
+        "options": "a ) 3 , b ) 9 , c ) 81 , d ) 27 , e ) 243",
+        "annotated_formula": "multiply(power(3, 3), 3)",
+        "linear_formula": "power(n0,n0)|multiply(n0,#0)",
+        "category": "general",
+        "correct": "c"
+    },
+    {
+        "Problem": "if 0.75 : x : : 5 : 6 , then x is equal to :",
+        "Rationale": "\"\"\"explanation : ( x * 5 ) = ( 0.75 * 6 ) x = 4.5 / 5 = 0.9 answer : d\"\"\"",
+        "options": "a ) 1.12 , b ) 1.16 , c ) 1.2 , d ) 0.9 , e ) none of these",
+        "annotated_formula": "divide(multiply(0.75, 6), 5)",
+        "linear_formula": "multiply(n0,n2)|divide(#0,n1)|",
+        "category": "general",
+        "correct": "d"
+    },
+    {
+        "Problem": "two trains of equal lengths take 10 sec and 14 sec respectively to cross a telegraph post . if the length of each train be 120 m , in what time will they cross other travelling in opposite direction ?",
+        "Rationale": "\"\"\"speed of the first train = 120 / 10 = 12 m / sec . speed of the second train = 120 / 14 = 8.6 m / sec . relative speed = 12 + 8.6 = 20.6 m / sec . required time = ( 120 + 120 ) / 20.6 = 11.7 sec . answer : option d\"\"\"",
+        "options": "a ) 10 , b ) 12 , c ) 13 , d ) 11.7 , e ) 15",
+        "annotated_formula": "divide(multiply(120, const_2), add(speed(120, 14), speed(120, 10)))",
+        "linear_formula": "multiply(n2,const_2)|speed(n2,n1)|speed(n2,n0)|add(#1,#2)|divide(#0,#3)|",
+        "category": "physics",
+        "correct": "d"
+    },
+    {
+        "Problem": "the sum of two consecutive integers is 41 . find the numbers .",
+        "Rationale": "\"\"\"n + ( n + 1 ) = 41 2 n + 1 = 41 2 n = 40 n = 20 answer : d\"\"\"",
+        "options": "a ) 17 , 18 , b ) 7 , 8 , c ) 5 , 6 , d ) 20,21 , e ) 8 , 9",
+        "annotated_formula": "add(add(power(add(add(divide(subtract(subtract(41, const_10), const_2), const_4), const_2), const_2), const_2), power(add(add(add(divide(subtract(subtract(41, const_10), const_2), const_4), const_2), const_2), const_2), const_2)), add(power(divide(subtract(subtract(41, const_10), const_2), const_4), const_2), power(add(divide(subtract(subtract(41, const_10), const_2), const_4), const_2), const_2)))",
+        "linear_formula": "subtract(n0,const_10)|subtract(#0,const_2)|divide(#1,const_4)|add(#2,const_2)|power(#2,const_2)|add(#3,const_2)|power(#3,const_2)|add(#5,const_2)|add(#4,#6)|power(#5,const_2)|power(#7,const_2)|add(#9,#10)|add(#11,#8)|",
+        "category": "physics",
+        "correct": "d"
+    },
+    {
+        "Problem": "every year an amount increases by 1 / 8 th of itself . how much will it be after two years if its present value is rs . 51200 ?",
+        "Rationale": "51200 * 9 / 8 * 9 / 8 = 64800 . answer : e",
+        "options": "a ) 81000 , b ) 81028 , c ) 27772 , d ) 29889 , e ) 64800",
+        "annotated_formula": "add(add(51200, multiply(divide(1, 8), 51200)), multiply(divide(1, 8), add(51200, multiply(divide(1, 8), 51200))))",
+        "linear_formula": "divide(n0,n1)|multiply(n2,#0)|add(n2,#1)|multiply(#2,#0)|add(#2,#3)|",
+        "category": "general",
+        "correct": "e"
+    },
+    {
+        "Problem": "5555 \u00d7 9999 = ?",
+        "Rationale": "\"\"\"e 55544445 5555 \u00d7 9999 = 5555 ( 10000 - 1 ) = 5555 \u00d7 10000 - 5555 \u00d7 1 = 55550000 - 5555 = 55544445\"\"\"",
+        "options": "a ) 55500005 , b ) 55511115 , c ) 55522225 , d ) 55533335 , e ) 55544445",
+        "annotated_formula": "multiply(divide(5555, 9999), const_100)",
+        "linear_formula": "divide(n0,n1)|multiply(#0,const_100)|",
+        "category": "general",
+        "correct": "e"
+    },
+    {
+        "Problem": "a train passes a station platform in 36 sec and a man standing on the platform in 20 sec . if the speed of the train is 63 km / hr . what is the length of the platform ?",
+        "Rationale": "\"\"\"speed = 63 * 5 / 18 = 17.5 m / sec . length of the train = 17.5 * 20 = 350 m . let the length of the platform be x m . then , ( x + 350 ) / 36 = 17.5 = > x = 280 m . answer : e\"\"\"",
+        "options": "a ) 240 , b ) 288 , c ) 277 , d ) 226 , e ) 280",
+        "annotated_formula": "multiply(20, multiply(63, const_0_2778))",
+        "linear_formula": "multiply(n2,const_0_2778)|multiply(n1,#0)|",
+        "category": "physics",
+        "correct": "e"
+    },
+    {
+        "Problem": "machine a and machine b are each used to manufacture 330 sprockets . it takes machine a 10 hours longer to produce 330 sprockets than machine b . machine b produces 10 percent more sprockets per hour than machine a . how many sprockets per hour does machine a produces ?",
+        "Rationale": "\"\"\"machine b : takes x hours to produce 330 sprockets machine a : takes ( x + 10 ) hours to produce 330 sprockets machine b : in 1 hour , b makes 330 / x sprockets machine a : in 1 hour , a makes 330 / ( x + 10 ) sprockets equating : 1.1 ( 330 / ( x + 10 ) ) = 330 / x 484 / ( x + 10 ) = 330 / x 363 x = 330 x + 3300 33 x = 3300 x = 100 a makes 330 / ( 110 ) = 3 sprockets per hour answer : e\"\"\"",
+        "options": "a ) 5 , b ) 4 , c ) 6 , d ) 8 , e ) 3",
+        "annotated_formula": "divide(330, divide(multiply(multiply(10, 330), divide(add(const_100, 10), const_100)), subtract(multiply(330, divide(add(const_100, 10), const_100)), 330)))",
+        "linear_formula": "add(n1,const_100)|multiply(n0,n1)|divide(#0,const_100)|multiply(#2,#1)|multiply(n0,#2)|subtract(#4,n0)|divide(#3,#5)|divide(n0,#6)|",
+        "category": "gain",
+        "correct": "e"
+    }
+]

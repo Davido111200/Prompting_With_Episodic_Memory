@@ -1,0 +1,42 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "json",
+  "dataset_size": 1960434,
+  "description": "",
+  "download_checksums": {
+    "/home/s223540177/dai/RLforLLM/src/data_benchmark/race/benchmark/test.json": {
+      "num_bytes": 1989894,
+      "checksum": null
+    }
+  },
+  "download_size": 1989894,
+  "features": {
+    "problems": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "article": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 3950328,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 1960434,
+      "num_examples": 745,
+      "dataset_name": "json"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
